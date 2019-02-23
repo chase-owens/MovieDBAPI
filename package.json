@@ -1,10 +1,12 @@
 {
   "name": "current-movies",
+  "homepage": "https://chase-owens.github.io/MovieDBAPI",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.2",
@@ -12,6 +14,8 @@
     "typeface-roboto": "0.0.54"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
