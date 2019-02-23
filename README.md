@@ -4,4 +4,6 @@ I did this project as a React refresher and to use an open sourced API. This pro
 
 The app makes use of their "most popular movies" call that returns the 20 most popular movies.
 
+Check the app out [here](https://chase-owens.github.io/MovieDBAPI/).
+
 Cheers
